@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator2021",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloozo/Team-Profile-Generator2021.git"
+  },
+  "keywords": [
+    "Team",
+    "Profile",
+    "Generator"
+  ],
+  "author": "Jonacin Pierre-Louis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloozo/Team-Profile-Generator2021/issues"
+  },
+  "homepage": "https://github.com/cloozo/Team-Profile-Generator2021#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.3"
+  }
+}
