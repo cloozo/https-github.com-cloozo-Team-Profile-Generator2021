@@ -1,21 +1,30 @@
-let Manager = require("./lib/Manager");
-let Engineer = require("./lib/Engineer");
-let Intern = require("./lib/Intern");
+let Manager = require("../lib/Manager");
+let Engineer = require("../lib/Engineer");
+let Intern = require("../lib/Intern");
 
-function generateTeam(team){
- let html = [];
+function generateTeam(team) {
+  let html = [];
 
- html.push(team.filter(emp => emp.getRole() === "Manager")
-  .map(manager) => manager.getHtml()
-  .join(""));
+  html.push(
+    team
+      .filter((emp) => emp.getRole() === "Manager")
+      .map((manager) => manager.getHtml())
+  );
+  html.push(
+    team
+      .filter((emp) => emp.getRole() === "Engineer")
+      .map((engineer) => engineer.getHtml())
+      .join("")
+  );
 
-  html.push(team.filter(emp => emp.getRole() === "Engineer")
-  .map(engineer) => engineer.getHtml()
-  .join(""));
-
-  html.push(team.filter(emp => emp.getRole() === "Intern")
-  .map(intern) => intern.getHtml()
-  .join(""));
+  html.push(
+    team
+      .filter((emp) => emp.getRole() === "Intern")
+      .map((intern) => intern.getHtml())
+      .join("")
+  );
+  console.log("html", html);
+  return html.join("");
 }
 module.exports = (team) => {
   return `

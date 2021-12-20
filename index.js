@@ -96,7 +96,7 @@ function addEngineerToTeam() {
         response.nameEng,
         response.idEng,
         response.emailEng,
-        response.githubEng
+        response.engGitHub
       );
       team.push(engineer);
       createTeam();
@@ -132,7 +132,7 @@ function addInternToTeam() {
         response.nameInt,
         response.idInt,
         response.emailInt,
-        response.schoolInt
+        response.intSchool
       );
       team.push(intern);
       createTeam();
@@ -142,6 +142,7 @@ function finalizeTeam() {
   if (!fs.existsSync(DIST_DIR)) {
     fs.mkdirSync(DIST_DIR);
   }
+  console.log("team", team)
   fs.writeFileSync(distPath, render(team), "utf-8");
 }
 /* createManager(); */
