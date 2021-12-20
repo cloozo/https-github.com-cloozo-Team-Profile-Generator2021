@@ -4,10 +4,10 @@
 ## Use of the site can be summed up with the following user story:
 
  To fulfill the requirement of this assignment, I have used many ressoures which include but are not limited to mdn documentation,
-npm.org, Express JS, Node JS.
+npm.org, Express JS, Node JS ,Inquirer.
 
 *  The web app was created using diffeent techonologiess. I have used :
-npm.org,  CDN documentation, Express JS, Node JS .
+npm.org,  CDN documentation, Express JS, Node JS, Jest .
 
 ---
 
@@ -33,6 +33,8 @@ npm.org,  CDN documentation, Express JS, Node JS .
 
 - Node JS
 - Express JS
+- Inquirer 
+- Jest
 
 
 ---
