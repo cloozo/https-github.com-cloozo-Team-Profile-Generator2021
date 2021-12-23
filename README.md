@@ -19,12 +19,11 @@ npm.org,  CDN documentation, Express JS, Node JS, Jest .
 * When the application is run, the use is  presend with a promp with a series of question which will allow them answer questions to generate html pages for a team they want to build. The team is comprised of Maanger, Engineer and Intern. Each has their own role. Their could be one Mangager for diffent Engineers and Inter. After all the questions are answeres the html pages are generated according to the quesinos and answer that were provided from the promt.
 
 
-
 ---
  Overall,  this challenge was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
 ## link to the deployed app can be found here: https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021
-![teamgen](https://user-images.githubusercontent.com/84163696/147192341-bdd06af4-6958-410e-ba6e-76617f23af07.png)
+/Users/user/Documents/UMBootcamp/Cohort7/WEEKLY-CHALLENGES/7-team-profileGn(TKum)/https-github.com-cloozo-Team-Profile-Generator2021/teamgen.png
 
 
 
