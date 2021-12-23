@@ -14,7 +14,7 @@ npm.org,  CDN documentation, Express JS, Node JS, Jest .
 ## Use of the site can be summed up with the following user story:
 
 
-* Thisapplicatio should be used by rurring node indes.js in integrated terminal. 
+* This application should be used by running node indes.js in integrated terminal. 
 
 * When the application is run, the use is  presend with a promp with a series of question which will allow them answer questions to generate html pages for a team they want to build. The team is comprised of Maanger, Engineer and Intern. Each has their own role. Their could be one Mangager for diffent Engineers and Inter. After all the questions are answeres the html pages are generated according to the quesinos and answer that were provided from the promt.
 
