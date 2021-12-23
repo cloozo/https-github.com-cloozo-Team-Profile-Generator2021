@@ -3,7 +3,7 @@ const Manager = require("../lib/Manager");
 test("via constructor argument", () => {
   const sampleTest = 100;
   const empl = new Manager("Marc", 1, "mail@mail.com", sampleTest);
-  expect(empl.officeNumber).toBe(sampleTest);
+  expect(empl.mgrOfficeNumber).toBe(sampleTest);
 });
 
 test('should return "Manager"', () => {
@@ -15,5 +15,5 @@ test('should return "Manager"', () => {
 test("office number via getOffice()", () => {
   const sampleTest = 100;
   const empl = new Manager("Marc", 1, "mail@mail.com", sampleTest);
-  expect(empl.getOfficeNumber()).toBe(sampleTest);
+  expect(empl.getMgrOfficeNumber()).toBe(sampleTest);
 });

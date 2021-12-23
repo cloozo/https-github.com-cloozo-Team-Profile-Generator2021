@@ -15,22 +15,22 @@ function managerMenu() {
       {
         type: "input",
         name: "nameMgr",
-        message: "What is the team Manager's Name",
+        message: "What is the team Manager's Name?: ",
       },
       {
         type: "input",
         name: "idMgr",
-        message: "What is the team manager's ID",
+        message: "What is the team manager's ID?: ",
       },
       {
         type: "input",
         name: "emailMgr",
-        message: "What is the team manager's Email",
+        message: "What is the team manager's Email?: ",
       },
       {
         type: "input",
         name: "mgrOfficeNumber",
-        message: "What is the team manager's Office Number",
+        message: "What is the team manager's Office Number?: ",
       },
     ])
     .then((managerAnswers) => {
@@ -50,7 +50,7 @@ function createTeam() {
       {
         type: "list",
         name: "teamMemberChoice",
-        message: "What type of the team member you want to add",
+        message: "What type of the team member you want to add?: ",
         choices: ["Engineer", "Intern", "I don't want to add"],
       },
     ])
@@ -73,22 +73,22 @@ function addEngineerToTeam() {
       {
         type: "input",
         name: "nameEng",
-        message: "What is the team Engineer's Name",
+        message: "What is the team Engineer's Name?: ",
       },
       {
         type: "input",
         name: "idEng",
-        message: "What is the team Engineer's ID",
+        message: "What is the team Engineer's ID?: ",
       },
       {
         type: "input",
         name: "emailEng",
-        message: "What is the team Enginer's Email",
+        message: "What is the team Enginer's Email?: ",
       },
       {
         type: "input",
         name: "engGitHub",
-        message: "What is the Engineer's Github",
+        message: "What is the Engineer's Github?: ",
       },
     ])
     .then((response) => {
@@ -109,22 +109,22 @@ function addInternToTeam() {
       {
         type: "input",
         name: "nameInt",
-        message: "What is the tean Intern's Name",
+        message: "What is the tean Intern's Name?: ",
       },
       {
         type: "input",
         name: "idInt",
-        message: "What is the team Intern's ID",
+        message: "What is the team Intern's ID?: ",
       },
       {
         type: "input",
         name: "emailInt",
-        message: "What is the team Intern's Email",
+        message: "What is the team Intern's Email?: ",
       },
       {
         type: "input",
         name: "intSchool",
-        message: "What is the Intern's school",
+        message: "What is the Intern's school?: ",
       },
     ])
     .then((response) => {

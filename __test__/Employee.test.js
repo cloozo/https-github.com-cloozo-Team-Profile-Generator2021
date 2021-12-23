@@ -6,24 +6,6 @@ describe("Employee", () => {
     expect(typeof empl).toBe("object");
   });
 
-  it("Trying to set name", () => {
-    const name = "Marc";
-    const empl = new Employee(name);
-    expect(empl.name).toBe(name);
-  });
-
-  it("Tryging to  get id", () => {
-    const sampleTest = 100;
-    const empl = new Employee("Jeff", sampleTest);
-    expect(empl.id).toBe(sampleTest);
-  });
-
-  it("Trying to get email", () => {
-    const sampleTest = "mail@mail.com";
-    const empl = new Employee("Jeff", 1, sampleTest);
-    expect(empl.email).toBe(sampleTest);
-  });
-
   describe("getName", () => {
     it("Trying to get name via", () => {
       const sampleTest = "Marc";
