@@ -25,7 +25,7 @@ npm.org,  CDN documentation, Express JS, Node JS, Jest .
 
 ## link to the deployed app can be found here: https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021
 [Live weather dashboard application deployed](https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021)
-![screenshot](https://user-images.githubusercontent.com/teamgen.png)
+![screenshot]https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021/blob/main/teamGen.png)
 
 
 ---
