@@ -24,6 +24,7 @@ npm.org,  CDN documentation, Express JS, Node JS, Jest .
  Overall,  this challenge was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
 ## link to the deployed app can be found here: https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021
+![teamgen](https://user-images.githubusercontent.com/84163696/147192341-bdd06af4-6958-410e-ba6e-76617f23af07.png)
 
 
 
