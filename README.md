@@ -28,7 +28,7 @@ npm.org,  CDN documentation, Express JS, Node JS, Jest .
 ![teamgen](https://user-images.githubusercontent.com/84163696/147192713-197ba02b-2cfb-495d-9783-2621ef59cf7d.png)
 
 ## Link to WalkThrough Video:
-https://github.com/cloozo/https-github.com-cloozo-Team-Profile-Generator2021/blob/main/teamProfileGen.mp4
+https://www.screencast.com/t/H8VI6x8u
 
 ---
 # Technologies Used
